@@ -47,20 +47,14 @@ def fatal(errorMsg):
 print("<?xml version=\"1.0\"?>")
 
 entities = readCsvToDicts("csv/entities.csv","item")
-if (os.path.isfile("csv/entities_extra.csv")):
-    entities = readCsvToDictsAppend(entities, "csv/entities_extra.csv", "item")
+entities_oax = readCsvToDicts("csv/entities_extra.csv", "item")
 keys = readCsvToDicts("csv/keys.csv","name")
 key_texts = readCsvToDicts("csv/key_text.csv","key")
-# q3map2keys = readCsvToDicts("csv/q3map2keys.csv","name")
-# q3map2key_texts = readCsvToDicts("csv/q3map2key_text.csv","key")
-# q3map2terrainkeys = readCsvToDicts("csv/q3map2terrainkeys.csv","name")
-# q3map2terrainkey_texts = readCsvToDicts("csv/q3map2terrainkey_text.csv","key")
 notes = readCsvToDicts("csv/note.csv","name")
 note_texts = readCsvToDicts("csv/note_text.csv", "key")
 # There are no spawnflags.csv at the moment. We only have suspended and it is part if the QUAKED line
 spawnflags = readCsvToDicts("csv/spawnflags.csv","item")
 spawnflag_texts = readCsvToDicts("csv/spawnflag_text.csv","key")
-
 
 def printKeys(item_name):
     for item in key_texts:
