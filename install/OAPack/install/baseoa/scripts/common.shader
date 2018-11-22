@@ -1,31 +1,24 @@
-//12-12-06 removed redundant nodrop
-//12-23-06 fixed the b0rked invisible shader
-//01-25-07 removed redundant clip + added nodrawnonsolid, clusterportal
-//01-27-07 moved portal from clown.shader to here
-//01-31-07 added mirror shader doesnt work, gave other shaders transparency in map editor.-kit89 
-//02-14-07 added timportal + mirror1, mirror 2, terrain, terrain 2, metalclip 
-//02-27-07 added botclip, missleclip, remapped certain mirrors to point to invisible.tga
-//need this or maps FTBFS
-//for the idiot bots out there use instead of botclip!!!!
-textures/common/donotenter
+/*
+  12-12-06 removed redundant nodrop
+  12-23-06 fixed the b0rked invisible shader
+  01-25-07 removed redundant clip + added nodrawnonsolid, clusterportal
+  01-27-07 moved portal from clown.shader to here
+  01-31-07 added mirror shader doesnt work, gave other shaders transparency in map editor.-kit89 
+  02-14-07 added timportal + mirror1, mirror 2, terrain, terrain 2, metalclip 
+  02-27-07 added botclip, missleclip, remapped certain mirrors to point to invisible.tga
+  22/11/18 added remaining shaders.
+*/
+textures/common/areaportal
 {
+	qer_trans 0.50
 	surfaceparm nodraw
+	surfaceparm nolightmap
 	surfaceparm nonsolid
+	surfaceparm structural
 	surfaceparm trans
 	surfaceparm nomarks
-	surfaceparm donotenter
+	surfaceparm areaportal
 }
-
-textures/common/clip
-{
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm playerclip
-	surfaceparm noimpact
-}
-
 textures/common/caulk
 {
 	surfaceparm nodraw
@@ -33,10 +26,99 @@ textures/common/caulk
         surfaceparm nolightmap
 }
 
+
+textures/common/clip
+{
+	qer_trans 0.50
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm noimpact
+	surfaceparm trans
+}
+
+//separates areas into smaller ones for botplay
+textures/common/clusterportal
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm clusterportal
+}
+
+textures/common/cushion
+{
+	qer_nocarve
+	qer_trans 0.50
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nodamage
+	surfaceparm trans
+}
+
+//need this or maps FTBFS
+//for the idiot bots out there use instead of botclip!!!!
+textures/common/donotenter
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm donotenter
+}
+
+// Someday someone will find a use for this.
+textures/common/energypad
+{
+	surfaceparm nolightmap
+	cull twosided
+	// add a shader stage here.
+}
+textures/common/full_clip
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm playerclip
+}
+//aids in VIS compiles
+textures/common/hint
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm hint
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm structural
+	surfaceparm trans
+	surfaceparm noimpact
+}
+
+/* Aids in VIS compiles, according to someone acts like a hint but doesn't create portals
+   beyond local structures.*/
+textures/common/hintlocal
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm structural
+	surfaceparm trans
+	surfaceparm noimpact
+}
+
 textures/common/invisible
 {
 	surfaceparm nolightmap			
-                        
         {
 		map textures/common/invisible.tga
 		alphaFunc GE128
@@ -46,121 +128,139 @@ textures/common/invisible
         
 }
 
-//use this near the trigger hurts, lava, death fogs, etc.
-// to keep weapons and powerups from piling up...
-textures/common/nodrop
+//nicked from nexuiz for backwards compat 
+textures/common/mirror1
 {
-	surfaceparm 	trans
-	surfaceparm	nonsolid
-	surfaceparm	nomarks
-	surfaceparm     nodrop
-	surfaceparm 	nolightmap
-	surfaceparm 	nodraw
-	cull		none
-}
-//need this for the teleporters in cbctf1
-textures/common/trigger
-{
-	surfaceparm nodraw
-	
-}
-//also needed for for cbctf1
-textures/common/origin
-{
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm origin
-}
-//aids in VIS compiles
-textures/common/hint
-{
-	surfaceparm hint
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm structural
-	surfaceparm trans
-	surfaceparm noimpact
+	surfaceparm nolightmap
+	portal
+  	{
+		map textures/common/invisible.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		depthWrite
+	}
 }
 
-textures/common/nodraw
+//nicked from nexuiz w/added turb. for backwards compat 
+textures/common/mirror2
 {
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	surfaceparm trans
-}
-//for an icy effect
-textures/common/slick
-{
-	surfaceparm nodraw
-	surfaceparm nomarks
-	surfaceparm trans
-	surfaceparm slick
-}
-
-textures/common/cushion
-{
-	surfaceparm nodraw
-	surfaceparm nomarks
-	surfaceparm nodamage
-	surfaceparm trans
-}
-
-//to keep certain textures from being shot up
-textures/common/weapclip
-{
-	surfaceparm nodraw
-	surfaceparm trans
-	surfaceparm nomarks
-}
-
-//for every stupid q3dm17 remake
-textures/common/nodrawnonsolid
-{
-	surfaceparm	nonsolid
-	surfaceparm	nodraw
-}
-
-//hint for the bots
-textures/common/clusterportal
-{
-	qer_nocarve
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm clusterportal
-}
-
-//can also be used as a mirror
-textures/common/portal
-{
-	qer_editorimage textures/common/invisible.tga
 	surfaceparm nolightmap
 	portal
 	{
 		map textures/common/invisible.tga
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
+	}
+        {
+               map textures/sfx/mirror.tga
+	       tcMod turb 0 0.25 0 0.05
+	       blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
+        }
 
+}
+
+textures/common/missileclip
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodamage
+	surfaceparm nomarks
+	surfaceparm nodraw
+	surfaceparm playerclip
+	surfaceparm trans
+}
+
+textures/common/nodraw
+{
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm trans
+}
+//for every stupid q3dm17 remake
+textures/common/nodrawnonsolid
+{
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+	surfaceparm nodraw
+}
+
+//use this near the trigger hurts, lava, death fogs, etc.
+// to keep weapons and powerups from piling up and bots from suiciding...
+textures/common/nodrop
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm 	trans
+	surfaceparm	nonsolid
+	surfaceparm	nomarks
+	surfaceparm     nodrop
+	surfaceparm 	nolightmap
+	surfaceparm 	nodraw
+}
+textures/common/noimpact
+{
+	surfaceparm noimpact
+}
+textures/common/nolightmap
+{
+	surfaceparm nolightmap
+}
+//for func_ entities
+textures/common/origin
+{
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm origin
+}
+//can also be used as a mirror
+textures/common/portal
+{
+	surfaceparm nolightmap
+	portal
+	{
+		map textures/common/invisible.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		depthWrite
 	}
 }
 
-//Added for Mirrors
-textures/common/mirror
+//for an icy effect
+textures/common/slick
 {
-	portal
-	q3map_nolightmap
-    {
-        map textures/common/invisible.tga
-        blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
-        depthWrite
-    }
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm slick
+}
+
+//nicked from nexuiz
+textures/common/terrain
+{
+	q3map_terrain
+	surfaceparm nodraw
+        surfaceparm nolightmap
+	surfaceparm nomarks
+}
+
+//nicked from nexuiz
+textures/common/terrain2
+{
+	q3map_terrain
+	surfaceparm dust
+	surfaceparm nodraw
+	surfaceparm nomarks
+	surfaceparm nolightmap
 }
 
 textures/common/timportal
 {
-	qer_editorimage textures/common/invisible.tga
 	surfaceparm nolightmap
 	portal
 	{
@@ -179,65 +279,29 @@ textures/common/timportal
 	}
 }
 
-//nicked from nexuiz for backwards compat 
-textures/common/mirror1
+//general trigger brush for multiple uses.
+textures/common/trigger
 {
-	qer_editorimage textures/common/invisible.tga
-	surfaceparm nolightmap
-	portal
-  
-	{
-		map textures/common/invisible.tga
-		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
-		depthWrite
-	}
-       
-        
-
-}
-
-//nicked from nexuiz w/added turb. for backwards compat 
-textures/common/mirror2
-{
-	qer_editorimage textures/common/invisible.tga
-	surfaceparm nolightmap
-	portal
-	{
-		map textures/common/invisible.tga
-		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
-		depthWrite
-	}
-        {
-               map textures/sfx/mirror.tga
-	       tcMod turb 0 0.25 0 0.05
-	       blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-        }
-
-}
-
-//nicked from nexuiz
-textures/common/terrain
-{
-	q3map_terrain
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nodraw
-        surfaceparm nolightmap
-	surfaceparm nomarks
 }
-
-//nicked from nexuiz
-textures/common/terrain2
+//to keep certain textures from being shot up
+textures/common/weapclip
 {
-	q3map_terrain
-	qer_editorimage textures/common/common.tga
-	surfaceparm dust
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nodraw
+	surfaceparm nolightmao
+	surfaceparm trans
 	surfaceparm nomarks
-	surfaceparm nolightmap
 }
 
 //nicked from nexuiz
 textures/common/metalclip
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nodraw
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -248,11 +312,12 @@ textures/common/metalclip
 	surfaceparm metalsteps
 }
 
-// acts as player clip only for the bots
-// can keep them from being pushed into voids
-// do not use, use donotenter instead :-P
+/*simplifies world geometry for bots
+  use for smoothing highly detailed walls, floors and ceilings.*/
 textures/common/botclip
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nodraw
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -261,24 +326,24 @@ textures/common/botclip
 	surfaceparm noimpact
 	surfaceparm botclip
 }
-
-textures/common/missileclip
+/* How does this work: 
+*/
+textures/common/lightgrid
 {
-	surfaceparm nodamage
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm detail
 	surfaceparm nomarks
-	surfaceparm nodraw
-	surfaceparm playerclip
 	surfaceparm trans
+	surfaceparm lightgrid
 }
-
-textures/common/full_clip
-{
-	surfaceparm nodraw
-	surfaceparm playerclip
-}
-
+/* Hint-like shader that suppresses portals. */
 textures/common/antiportal
 {
+	qer_trans 0.50
 	qer_nocarve
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -287,24 +352,122 @@ textures/common/antiportal
 	surfaceparm antiportal
 }
 
-textures/common/areaportal
+//Added for Mirrors
+textures/common/mirror
 {
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm structural
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm areaportal
+	portal
+	q3map_nolightmap
+    {
+        map textures/common/invisible.tga
+        blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+    }
 }
 
-textures/common/lightgrid
+/*
+-------------------------------------------------------------
+*/
+/* Q2-like hint: doesn't split the BSP, so should be used in hint brushes
+    in the faces that shouldn't cut the BSP tree.*/
+textures/common/skip
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nodraw
-	surfaceparm nolightmap
+	surfaceparm noimpact
 	surfaceparm nonsolid
-	surfaceparm detail
-	surfaceparm nomarks
+	surfaceparm skip
+	surfaceparm structural
 	surfaceparm trans
-	surfaceparm lightgrid
+}
+/* Same as skip, allows Radiant to filter both hint and skip. */
+textures/common/hintskip
+{
+	qer_trans 0.50
+	qer_nocarve
+	qer_editorImage textures/common/skip.tga
+	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm skip
+	surfaceparm structural
+	surfaceparm trans
+}
+/* Caulk for water: allows water shaders to be used where the water area extends
+   Think am_mckinleyish pool entrances. */
+textures/common/watercaulk
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm water
+}
+/* Caulk for lava: same as watercaulk, but for lava pits. */
+textures/common/lavacaulk
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm lava
+}
+/* Caulk for slime: same as watercaulk and lavacaulk, but for slime pits. */
+textures/common/lavacaulk
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm slime
+}
+/* Terrain-specific shaders. With these, we complete the pack.
+   Go to simonoc's page for terrain tutorials.*/
+textures/common/alpha_0
+{
+	qer_trans 0.5
+	q3map_alphaMod volume
+	q3map_alphaMod scale 0.0
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+textures/common/alpha_25
+{
+	qer_trans 0.5
+	q3map_alphaMod volume
+	q3map_alphaMod scale 0.25
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+textures/common/alpha_50
+{
+	qer_trans 0.5
+	q3map_alphaMod volume
+	q3map_alphaMod scale 0.50
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+textures/common/alpha_75
+{
+	qer_trans 0.5
+	q3map_alphaMod volume
+	q3map_alphaMod scale 0.75
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
+}
+textures/common/alpha_100
+{
+	qer_trans 0.5
+	q3map_alphaMod volume
+	q3map_alphaMod scale 1.0
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm trans
 }
