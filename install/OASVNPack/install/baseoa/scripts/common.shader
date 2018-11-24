@@ -11,6 +11,7 @@
 textures/common/areaportal
 {
 	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nodraw
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -30,6 +31,7 @@ textures/common/caulk
 textures/common/clip
 {
 	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nodraw
@@ -93,8 +95,6 @@ textures/common/full_clip
 //aids in VIS compiles
 textures/common/hint
 {
-	qer_trans 0.50
-	qer_nocarve
 	surfaceparm hint
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -107,8 +107,6 @@ textures/common/hint
    beyond local structures.*/
 textures/common/hintlocal
 {
-	qer_trans 0.50
-	qer_nocarve
 	surfaceparm nodraw
 	surfaceparm nonsolid
 	surfaceparm structural
@@ -171,6 +169,8 @@ textures/common/missileclip
 
 textures/common/nodraw
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nodraw
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -180,6 +180,8 @@ textures/common/nodraw
 //for every stupid q3dm17 remake
 textures/common/nodrawnonsolid
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	surfaceparm nodraw
@@ -200,10 +202,14 @@ textures/common/nodrop
 }
 textures/common/noimpact
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm noimpact
 }
 textures/common/nolightmap
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 }
 //for func_ entities
@@ -292,7 +298,7 @@ textures/common/weapclip
 	qer_trans 0.50
 	qer_nocarve
 	surfaceparm nodraw
-	surfaceparm nolightmao
+	surfaceparm nolightmap
 	surfaceparm trans
 	surfaceparm nomarks
 }
@@ -428,7 +434,8 @@ textures/common/lavacaulk
    Go to simonoc's page for terrain tutorials.*/
 textures/common/alpha_0
 {
-	qer_trans 0.5
+	qer_trans 0.50
+	qer_nocarve
 	q3map_alphaMod volume
 	q3map_alphaMod scale 0.0
 	surfaceparm nodraw
@@ -437,7 +444,8 @@ textures/common/alpha_0
 }
 textures/common/alpha_25
 {
-	qer_trans 0.5
+	qer_trans 0.50
+	qer_nocarve
 	q3map_alphaMod volume
 	q3map_alphaMod scale 0.25
 	surfaceparm nodraw
@@ -446,7 +454,8 @@ textures/common/alpha_25
 }
 textures/common/alpha_50
 {
-	qer_trans 0.5
+	qer_trans 0.50
+	qer_nocarve
 	q3map_alphaMod volume
 	q3map_alphaMod scale 0.50
 	surfaceparm nodraw
@@ -455,7 +464,8 @@ textures/common/alpha_50
 }
 textures/common/alpha_75
 {
-	qer_trans 0.5
+	qer_trans 0.50
+	qer_nocarve
 	q3map_alphaMod volume
 	q3map_alphaMod scale 0.75
 	surfaceparm nodraw
@@ -464,7 +474,8 @@ textures/common/alpha_75
 }
 textures/common/alpha_100
 {
-	qer_trans 0.5
+	qer_trans 0.50
+	qer_nocarve
 	q3map_alphaMod volume
 	q3map_alphaMod scale 1.0
 	surfaceparm nodraw
