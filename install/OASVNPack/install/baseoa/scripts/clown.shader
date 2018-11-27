@@ -402,6 +402,7 @@ textures/clown/ankh_light
 
 textures/clown/grate_1
 {
+	qer_trans 0.50
 	surfaceparm nomarks
 	cull none
 	{
@@ -421,7 +422,7 @@ textures/clown/grate_1
 
 textures/clown/grate_2
 {
-	
+	qer_trans 0.50
 	surfaceparm nomarks
 	cull none
 	{
@@ -812,6 +813,7 @@ textures/gothic_block/blocks18b_ow
 
 textures/base_floor/proto_rustygrate
 {
+	qer_trans 0.50
 	surfaceparm metalsteps
 	surfaceparm nodamage
 	cull none
@@ -832,6 +834,7 @@ textures/base_floor/proto_rustygrate
 
 textures/base_floor/proto_grate
 {
+	qer_trans 0.50
 	surfaceparm metalsteps
 	surfaceparm nodamage
 	cull none
@@ -852,6 +855,7 @@ textures/base_floor/proto_grate
 
 textures/base_floor/proto_grate4
 {
+	qer_trans 0.50
 	surfaceparm metalsteps
 	surfaceparm nodamage
 	cull none
@@ -872,6 +876,7 @@ textures/base_floor/proto_grate4
 
 textures/base_floor/cybergrate2
 {
+	qer_trans 0.50
 	surfaceparm metalsteps
 	cull none
 	{
@@ -894,6 +899,7 @@ textures/base_floor/cybergrate2
 
 textures/base_floor/cybergrate3
 {
+	qer_trans 0.50
 	surfaceparm metalsteps
 	cull none
 	{
