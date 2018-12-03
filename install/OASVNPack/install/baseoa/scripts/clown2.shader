@@ -699,6 +699,8 @@ textures/base_floor/rusty_pentagrate
 
 textures/base_floor/pjgrate1
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm metalsteps
 	surfaceparm nodamage
 	cull none
@@ -719,6 +721,8 @@ textures/base_floor/pjgrate1
 
 textures/base_floor/pjgrate2
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm metalsteps
 	surfaceparm nodamage
 	cull none
@@ -1031,6 +1035,8 @@ textures/proto2/red_zot2
 
 textures/proto2/blueflare
 {
+	qer_trans 0.50
+	qer_nocarve
 	deformvertexes autosprite
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -1047,6 +1053,8 @@ textures/proto2/blueflare
 
 textures/proto2/blueflare2
 {
+	qer_trans 0.50
+	qer_nocarve
 	deformvertexes autosprite2
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -1062,6 +1070,8 @@ textures/proto2/blueflare2
 
 textures/proto2/redflare
 {
+	qer_trans 0.50
+	qer_nocarve
 	deformvertexes autosprite
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -1078,6 +1088,8 @@ textures/proto2/redflare
 
 textures/proto2/redflare2
 {
+	qer_trans 0.50
+	qer_nocarve
 	deformvertexes autosprite2
 	surfaceparm trans
 	surfaceparm nonsolid

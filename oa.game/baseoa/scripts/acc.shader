@@ -259,6 +259,8 @@ textures/acc_dm3/decalcomputer
 
 textures/acc_dm3/wires1
 {
+	qer_trans 0.50
+	qer_nocarve
 	cull disable
 	surfaceparm trans
 	surfaceparm noimpact
@@ -281,6 +283,8 @@ textures/acc_dm3/wires1
 
 textures/acc_dm3/wires2
 {
+	qer_trans 0.50
+	qer_nocarve
 	cull disable
 	surfaceparm trans
 	surfaceparm noimpact
