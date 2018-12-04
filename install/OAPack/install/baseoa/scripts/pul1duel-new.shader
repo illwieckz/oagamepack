@@ -25,10 +25,13 @@ textures/pulchr/botclipnosound
 	surfaceparm trans
 	surfaceparm botclip
 	qer_trans 0.4
+	qer_nocarve
 }
 
 textures/pulchr/beam-white-pulchr
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pulchr/beam-pulchr-white.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -45,6 +48,8 @@ textures/pulchr/beam-white-pulchr
 
 textures/pulchr/telebeam
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pulchr/beam-teleporter.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -61,6 +66,8 @@ textures/pulchr/telebeam
 
 textures/pulchr/fivestepspindel
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pulchr/five-steps-ahead-pindel.tga
 	surfaceparm alphashadow
 	surfaceparm nolightmap
@@ -88,6 +95,8 @@ textures/pulchr/fivestepspindel
 
 textures/pulchr/fivestepsahead
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pulchr/five-steps-ahead.tga
 	surfaceparm alphashadow
 	surfaceparm nolightmap
@@ -213,6 +222,7 @@ textures/pulchr/airwalk
 	surfaceparm trans
 	deformVertexes wave 128 sin 0 0 0 0 
 	qer_trans 0.5
+	qer_nocarve
 	q3map_surfacelight 200
 	{
 		map textures/pulchr/airwalk-env.tga
@@ -230,6 +240,7 @@ textures/pulchr/pulglass
 	surfaceparm trans
 	cull disable
 	qer_trans 0.4
+	qer_nocarve
 	{
 		map textures/effects/tinfx2.tga
 		blendfunc add

@@ -183,6 +183,8 @@ textures/ctf_unified/monologo_flash_red
 
 textures/base_wall/glass01
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	cull disable
 	{

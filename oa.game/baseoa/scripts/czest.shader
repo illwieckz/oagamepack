@@ -55,6 +55,8 @@ textures/czest2ctf/sundownsky
 
 textures/czest2ctf/darkfog
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog

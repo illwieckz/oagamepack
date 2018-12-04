@@ -908,6 +908,8 @@ textures/sfx/xflame2
 
 textures/sfx/fanofdeath
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -921,6 +923,8 @@ textures/sfx/fanofdeath
 
 textures/sfx/forcefield
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/sfx/forcefieldd.tga
 	surfaceparm nodlight
 	surfaceparm nomarks
@@ -941,14 +945,14 @@ textures/sfx/forcefield
 
 textures/sfx/rain
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/clown/rain.tga
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	deformvertexes  wave 25 sin 3 2 .1 3
-
-	
 	cull none
 	{
 		map textures/clown/rain.tga

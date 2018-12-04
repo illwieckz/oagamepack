@@ -1,5 +1,7 @@
 textures/base_trim/wires01
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_trim/wires01.tga
 	cull none
 	surfaceparm alphashadow
@@ -19,6 +21,8 @@ textures/base_trim/wires01
 
 textures/base_trim/wires01_ass
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_trim/wires01_ass.tga
 	cull none
 	surfaceparm alphashadow
@@ -38,6 +42,8 @@ textures/base_trim/wires01_ass
 
 textures/base_trim/wires02
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_trim/wires02.tga
 	cull none
 	surfaceparm alphashadow
@@ -197,6 +203,8 @@ textures/gothic_button/timbutton
 
 textures/proto2/steam01
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/proto2/steam01.tga
 	cull none
 	surfaceparm trans
@@ -540,6 +548,8 @@ textures/proto2/vertex_cavestone
 
 textures/sfx2/redgoal2
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm trans
 	cull none
@@ -554,6 +564,8 @@ textures/sfx2/redgoal2
 
 textures/sfx2/bluegoal2
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm trans
 	cull none
@@ -568,6 +580,8 @@ textures/sfx2/bluegoal2
 
 textures/base_wall2/respawn_effect1
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_wall2/redjet_1.tga
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -598,6 +612,8 @@ textures/base_wall2/respawn_effect1
 
 textures/base_wall2/respawn_effect1_blue
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_wall2/bluejet_1.tga
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -628,6 +644,8 @@ textures/base_wall2/respawn_effect1_blue
 
 textures/base_wall2/respawn_effect1_ntrl
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_wall2/ntrljet_1.tga
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -946,6 +964,8 @@ textures/base_wall2/space_concrete
 
 textures/base_wall2/scuffs1
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap
@@ -959,6 +979,8 @@ textures/base_wall2/scuffs1
 
 textures/proto2/blue_zot
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/proto2/blue_zot.tga
 	deformvertexes autosprite2
 	deformvertexes move 0.23 0.2 0.3 sin 0 5 0 1
@@ -977,6 +999,8 @@ textures/proto2/blue_zot
 
 textures/proto2/red_zot
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/proto2/red_zot.tga
 	deformvertexes autosprite2
 	deformvertexes move 0.23 0.2 0.3 sin 0 5 0 1
@@ -995,6 +1019,8 @@ textures/proto2/red_zot
 
 textures/proto2/blue_zot2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/proto2/blue_zot2.tga
 	q3map_lightimage textures/proto2/blue_zot2.tga
 	q3map_surfacelight 100
@@ -1015,6 +1041,8 @@ textures/proto2/blue_zot2
 
 textures/proto2/red_zot2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/proto2/red_zot2.tga
 	q3map_lightimage textures/proto2/red_zot2.tga
 	q3map_surfacelight 100
@@ -1105,6 +1133,8 @@ textures/proto2/redflare2
 
 textures/ctf2/blueteam01
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap
@@ -1120,6 +1150,8 @@ textures/ctf2/blueteam01
 
 textures/ctf2/redteam01
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap
@@ -1135,6 +1167,8 @@ textures/ctf2/redteam01
 //remap shader thingies
 textures/ctf2/blueteam02
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/ctf2/blueteam01.tga
 	surfaceparm trans
 	surfaceparm nomarks
@@ -1151,6 +1185,8 @@ textures/ctf2/blueteam02
 
 textures/ctf2/redteam02
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/ctf2/redteam01.tga
 	surfaceparm trans
 	surfaceparm nomarks

@@ -12,6 +12,8 @@ textures/pxl_light/wsupprt1_noflare
 
 textures/pxl_fx/jumpcircle1
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pxl_fx/jumpcircle.jpg
 	surfaceparm nodlight
 	surfaceparm noimpact
@@ -31,6 +33,8 @@ textures/pxl_fx/jumpcircle1
 
 textures/pxl_fx/jumpcircle2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pxl_fx/jumpcircle.jpg
 	surfaceparm nodlight
 	surfaceparm noimpact
@@ -50,6 +54,8 @@ textures/pxl_fx/jumpcircle2
 
 textures/pxl_fx/letter_a
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -64,6 +70,8 @@ textures/pxl_fx/letter_a
 
 textures/pxl_fx/letter_b
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -78,6 +86,8 @@ textures/pxl_fx/letter_b
 
 textures/pxl_fx/weaponbase_iconrl
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pxl_fx/weaponbase_spin_fx_rl.tga
 	q3map_lightimage textures/pxl_fx/weaponbase_spin_fx_rl.tga
 	surfaceparm nomarks
@@ -101,6 +111,8 @@ textures/pxl_fx/weaponbase_iconrl
 
 textures/pxl_fx/weaponbase_iconlg
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pxl_fx/weaponbase_spin_fx_lg.tga
 	q3map_lightimage textures/pxl_fx/weaponbase_spin_fx_lg.tga
 	surfaceparm nomarks
@@ -124,6 +136,8 @@ textures/pxl_fx/weaponbase_iconlg
 
 textures/pxl_fx/weaponbase_iconrg
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pxl_fx/weaponbase_spin_fx_rg.tga
 	q3map_lightimage textures/pxl_fx/weaponbase_spin_fx_rg.tga
 	surfaceparm nomarks

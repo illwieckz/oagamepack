@@ -1399,6 +1399,8 @@ textures/base_light/ceil1_30
 }
 textures/base_light/ceil1_30_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/ceil1_30.tga
 	q3map_lightimage textures/base_light/ceil1_30.blend.tga
 	surfaceparm metalsteps
@@ -1803,6 +1805,8 @@ textures/base_light/ceil1_34
 }
 textures/base_light/ceil1_34_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/ceil1_34.tga
 	q3map_lightimage textures/base_light/ceil1_34.blend.tga
 	surfaceparm metalsteps
@@ -2207,6 +2211,8 @@ textures/base_light/ceil1_37
 }
 textures/base_light/ceil1_37_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/ceil1_37.tga
 	q3map_lightimage textures/base_light/ceil1_37.blend.tga
 	surfaceparm metalsteps
@@ -2611,6 +2617,8 @@ textures/base_light/ceil1_38
 }
 textures/base_light/ceil1_38_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/ceil1_38.tga
 	q3map_lightimage textures/base_light/ceil1_38.blend.tga
 	surfaceparm metalsteps
@@ -3015,6 +3023,8 @@ textures/base_light/ceil1_39
 }
 textures/base_light/ceil1_39_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/ceil1_39.tga
 	q3map_lightimage textures/base_light/ceil1_39.blend.tga
 	surfaceparm metalsteps
@@ -3419,6 +3429,8 @@ textures/base_light/ceil1_4
 }
 textures/base_light/ceil1_4_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/ceil1_4.tga
 	q3map_lightimage textures/base_light/ceil1_4.blend.tga
 	surfaceparm metalsteps
@@ -3823,6 +3835,8 @@ textures/base_light/xceil1_39
 }
 textures/base_light/xceil1_39_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/xceil1_39.tga
 	q3map_lightimage textures/base_light/xceil1_39.blend.tga
 	surfaceparm metalsteps

@@ -49,12 +49,12 @@ textures/desertfactory_shaders/metal01-metal02
 
 textures/desertfactory_shaders/grates01
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/grates01.jpg
 	qer_trans 0.5
-
 	surfaceparm trans
 	surfaceparm alphashadow
-
 	{
 		map textures/desertfactory_metal/grates01.tga
 		alphaFunc GT0
@@ -64,10 +64,10 @@ textures/desertfactory_shaders/grates01
 
 textures/desertfactory_shaders/glass01
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/glass01.jpg
-
 	surfaceparm trans
-
 	{
 		map textures/desertfactory_misc/glass01.tga
 		blendFunc blend
@@ -76,11 +76,11 @@ textures/desertfactory_shaders/glass01
 
 textures/desertfactory_shaders/light02
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/light02.jpg
-
 	surfaceparm trans
 	cull none
-
 	{
 		map textures/desertfactory_misc/light02.tga
 		blendFunc blend
@@ -89,14 +89,13 @@ textures/desertfactory_shaders/light02
 
 textures/desertfactory_shaders/grass01
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/grass01.jpg
-
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm alphashadow
-
 	cull none
-
 	{
 		map textures/desertfactory_misc/grass01.tga
 		alphaFunc GT0
@@ -106,14 +105,13 @@ textures/desertfactory_shaders/grass01
 
 textures/desertfactory_shaders/grass02
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/grass02.jpg
-
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm alphashadow
-
 	cull none
-
 	{
 		map textures/desertfactory_misc/grass02.tga
 		alphaFunc GT0
@@ -123,14 +121,13 @@ textures/desertfactory_shaders/grass02
 
 textures/desertfactory_shaders/vines01
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/vines01.jpg
-
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm alphashadow
-
 	cull none
-
 	{
 		map textures/desertfactory_misc/vines01.tga
 		alphaFunc GT0
@@ -324,12 +321,12 @@ textures/desertfactory_shaders/sign_wires_dirty
 
 textures/desertfactory_shaders/writing01
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/writing01.jpg
-
 	surfaceparm trans
 	nopicmip
 	nomipmaps
-
 	{
 		map textures/desertfactory_documents/writing01.tga
 		blendFunc blend
@@ -338,12 +335,12 @@ textures/desertfactory_shaders/writing01
 
 textures/desertfactory_shaders/writing02
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/writing02.jpg
-
 	surfaceparm trans
 	nopicmip
 	nomipmaps
-
 	{
 		map textures/desertfactory_documents/writing02.tga
 		blendFunc blend
@@ -352,12 +349,12 @@ textures/desertfactory_shaders/writing02
 
 textures/desertfactory_shaders/writing03
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/writing03.jpg
-
 	surfaceparm trans
 	nopicmip
 	nomipmaps
-
 	{
 		map textures/desertfactory_documents/writing03.tga
 		blendFunc blend
@@ -366,12 +363,12 @@ textures/desertfactory_shaders/writing03
 
 textures/desertfactory_shaders/writing04
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/desertfactory_shaders/writing04.jpg
-
 	surfaceparm trans
 	nopicmip
 	nomipmaps
-
 	{
 		map textures/desertfactory_documents/writing04.tga
 		blendFunc blend

@@ -1,6 +1,8 @@
 // blue_telep2 is used in oa_ctf4ish
 textures/ctf/blue_telep2
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/ctf/blue_telep
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -30,6 +32,8 @@ textures/ctf/blue_telep2
 // blue_telep2 is used in oa_ctf4ish
 textures/ctf/red_telep2
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/ctf/red_telep
 	surfaceparm noimpact
 	surfaceparm nolightmap

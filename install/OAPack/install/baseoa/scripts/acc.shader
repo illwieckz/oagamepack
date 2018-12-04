@@ -43,7 +43,8 @@ textures/acc_dm3/stripes_nonsolid
 
 textures/acc_dm3/grind
 {
-	qer_trans 0.5
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/acc_dm3/grind.tga
 	surfaceparm trans
 	surfaceparm alphashadow
@@ -135,10 +136,11 @@ textures/acc_dm3/sp_ground
 
 textures/acc_dm3/brwnwater
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	{
 		map textures/acc_dm3/brwnwater.tga
 		blendFunc blend
@@ -245,6 +247,8 @@ textures/acc_dm3/comp
 
 textures/acc_dm3/decalcomputer
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -307,6 +311,8 @@ textures/acc_dm3/wires2
 
 textures/acc_dm3/decalitem
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -321,6 +327,8 @@ textures/acc_dm3/decalitem
 
 textures/acc_dm3/ind_wall1
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm noimpact
 	surfaceparm nomarks
@@ -340,6 +348,8 @@ textures/acc_dm3/ind_wall1
 
 textures/acc_dm3/ind_x1
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm noimpact
 	surfaceparm nomarks
@@ -360,6 +370,8 @@ textures/acc_dm3/ind_x1
 
 textures/acc_dm5/flame
 {
+	qer_trans 0.50
+	qer_nocarve
         q3map_flare textures/sfx/flameflare
 	qer_editorimage textures/acc_dm5/flame.tga
 	surfaceparm trans
@@ -382,6 +394,8 @@ textures/acc_dm5/flame
 
 textures/acc_dm5/fx_waterfall
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/acc_dm5/fx_waterfall.jpg
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -411,10 +425,11 @@ textures/acc_dm5/fx_waterfall
 
 textures/acc_dm5/brwnwater
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	deformVertexes wave 32 sin .7 .7 .7 .5
 	{
 		map textures/acc_dm5/brwnwater.tga
@@ -469,6 +484,8 @@ textures/acc_dm5/fx_sky
 
 textures/acc_dm5/fx_lums
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/acc_dm5/fx_lums.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -540,12 +557,13 @@ textures/acc_dm5/roots_moss
 
 textures/acc_dm5/watershore
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/acc_dm5/watershore.tga
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull none
-
 	{
 		map textures/acc_dm5/watershore.tga
 		blendFunc blend
@@ -562,7 +580,8 @@ textures/acc_dm5/watershore
 
 textures/acc_dm5/woodenbarrier
 {
-	qer_trans 0.5
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/acc_dm5/woodenbarrier.tga
 	cull none
 	surfaceparm alphashadow

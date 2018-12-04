@@ -1,22 +1,24 @@
 
 models/mapobjects/torch/torchnew
 {
+	qer_trans 0.50
+	qer_nocarve
  	cull disable
- 	//surfaceparm trans
+//	surfaceparm trans
  	{
  		map models/mapobjects/torch/torchnew.tga
-	//	alphaFunc GE128
-	//	depthWrite
+//		alphaFunc GE128
+//		depthWrite
  		rgbGen lightingDiffuse
  	}
 
  	{
- 	//	map models/mapobjects/torch/torchnew.tga
- 	//	blendfunc gl_src_alpha gl_one
- 	//	rgbGen lightingDiffuse
- 	//	depthFunc equal
- 	//	alphaGen lightingSpecular
- 	//	detail
+//		map models/mapobjects/torch/torchnew.tga
+//		blendfunc gl_src_alpha gl_one
+//		rgbGen lightingDiffuse
+//		depthFunc equal
+//		alphaGen lightingSpecular
+//		detail
  	}
 
  	{

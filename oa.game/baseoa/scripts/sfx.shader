@@ -31,6 +31,8 @@ textures/sfx/portal_sfx_ring
 
 textures/sfx/hellfog_pj_dm10
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -55,6 +57,8 @@ textures/sfx/hellfog_pj_dm10
 
 textures/sfx/hellfog_mini_dm10
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -77,6 +81,8 @@ textures/sfx/hellfog_mini_dm10
 
 textures/sfx/hellfog_tim_dm14
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -101,6 +107,8 @@ textures/sfx/hellfog_tim_dm14
 
 textures/sfx/kc_hellfog_1k
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -126,6 +134,8 @@ textures/sfx/kc_hellfog_1k
 // obsolete?
 textures/sfx/hellfog_1k
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -151,6 +161,8 @@ textures/sfx/hellfog_1k
 // obsolete?
 textures/sfx/hellfog
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -176,6 +188,8 @@ textures/sfx/hellfog
 // obsolete?
 textures/sfx/constfog
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -186,13 +200,14 @@ textures/sfx/constfog
 
 textures/sfx/q3tourney3fog
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
 	surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.6 0.12 0.1 ) 300
-	
 	{
 		map textures/liquids/kc_fogcloud3.tga
 		blendfunc filter
@@ -209,13 +224,14 @@ textures/sfx/q3tourney3fog
 
 textures/sfx/q3dm9fog
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
 	surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.47843 0.086275 0.086275 ) 500
-	
 	{
 		map textures/liquids/kc_fogcloud3.tga
 		blendfunc filter
@@ -232,6 +248,8 @@ textures/sfx/q3dm9fog
 
 textures/sfx/q3dm14fog
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -257,6 +275,8 @@ textures/sfx/q3dm14fog
 // and we needed a red fog :)
 textures/sfx/hellfogdense
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -281,6 +301,8 @@ textures/sfx/hellfogdense
 
 textures/sfx/xlightgreyfog
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -291,6 +313,8 @@ textures/sfx/xlightgreyfog
 
 textures/sfx/xdensegreyfog
 {
+	qer_trans 0.50
+	qer_nocarve
         surfaceparm trans
         surfaceparm nonsolid
 	surfaceparm fog
@@ -301,6 +325,8 @@ textures/sfx/xdensegreyfog
 
 textures/sfx/xfinalfog
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/xfinalfog
         surfaceparm trans
         surfaceparm nonsolid
@@ -312,6 +338,8 @@ textures/sfx/xfinalfog
 
 textures/sfx/xbluefog
 {
+	qer_trans 0.50
+	qer_nocarve
         surfaceparm trans
         surfaceparm nonsolid
 	surfaceparm fog
@@ -322,6 +350,8 @@ textures/sfx/xbluefog
 
 textures/sfx/xredfog
 {
+	qer_trans 0.50
+	qer_nocarve
         surfaceparm trans
         surfaceparm nonsolid
 	surfaceparm fog
@@ -332,6 +362,8 @@ textures/sfx/xredfog
 
 textures/sfx/fog_timdm1
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -343,6 +375,8 @@ textures/sfx/fog_timdm1
 
 textures/sfx/fog_timdm2
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -354,6 +388,8 @@ textures/sfx/fog_timdm2
 // obsolete?
 textures/sfx/fog_timdm8
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -364,6 +400,8 @@ textures/sfx/fog_timdm8
 
 textures/sfx/fog_timctf1
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -375,6 +413,8 @@ textures/sfx/fog_timctf1
 
 textures/sfx/fog_pjdm1
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -385,6 +425,8 @@ textures/sfx/fog_pjdm1
 
 textures/sfx/fog_intel
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -395,6 +437,8 @@ textures/sfx/fog_intel
 
 textures/sfx/proto_hellfog
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -407,6 +451,8 @@ textures/sfx/proto_hellfog
 // obsolete?
 textures/sfx/fog_q3dm10
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -417,6 +463,8 @@ textures/sfx/fog_q3dm10
 
 textures/sfx/mkc_fog_tdm3
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -440,6 +488,8 @@ textures/sfx/mkc_fog_tdm3
 
 textures/sfx/mkc_fog_ctfred
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -462,6 +512,8 @@ textures/sfx/mkc_fog_ctfred
 
 textures/sfx/mkc_fog_ctfblue
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
@@ -484,6 +536,8 @@ textures/sfx/mkc_fog_ctfblue
 
 textures/sfx/mkc_fog_ctfblue2
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog

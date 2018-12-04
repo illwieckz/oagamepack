@@ -42,6 +42,7 @@ textures/suction/light_solid_blue
 textures/suction/beam_red
 {
 	qer_trans 0.5
+	qer_nocarve
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	surfaceparm trans
@@ -62,6 +63,7 @@ textures/suction/beam_red
 textures/suction/beam_blue
 {
 	qer_trans 0.5
+	qer_nocarve
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	surfaceparm trans
@@ -83,6 +85,7 @@ textures/suction/greenfloor
 {
 	qer_editorimage textures/suction/solid_green.jpg
 	qer_trans 0.5
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm trans
 	q3map_nonplanar
@@ -104,6 +107,8 @@ textures/suction/greenfloor
 
 textures/suction/logo_red
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/suction/logo.tga
 	surfaceparm nolightmap
 	surfaceparm trans
@@ -117,6 +122,8 @@ textures/suction/logo_red
 
 textures/suction/logo_blue
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/suction/logo.tga
 	surfaceparm nolightmap
 	surfaceparm trans

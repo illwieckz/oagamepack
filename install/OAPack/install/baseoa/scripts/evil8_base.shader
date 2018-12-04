@@ -214,6 +214,8 @@ textures/evil8_grate/e8xgirder_small2
 
 textures/evil8_fx/e8alphaspawn
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm pointlight
@@ -226,6 +228,8 @@ textures/evil8_fx/e8alphaspawn
 
 textures/evil8_fx/e8yarrow
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm pointlight
@@ -402,6 +406,8 @@ textures/evil8_fx/e8_launchpad1
 
 textures/evil8_fx/e8red_dcl
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm pointlight
@@ -415,6 +421,8 @@ textures/evil8_fx/e8red_dcl
 
 textures/evil8_fx/e8blue_dcl
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm pointlight
@@ -428,6 +436,8 @@ textures/evil8_fx/e8blue_dcl
 
 textures/evil8_grate/e8xgirder
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm nomarks
@@ -469,6 +479,8 @@ textures/evil8_grate/e8xgirder_small
 
 textures/evil8_trim/e8mtltrim2
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm trans
@@ -490,6 +502,8 @@ textures/evil8_trim/e8mtltrim2
 
 textures/evil8_trim/e8wrntrim2
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm trans
@@ -551,6 +565,8 @@ textures/evil8_fx/e8rail
 
 textures/evil8_fx/e8icon_red
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
@@ -564,6 +580,8 @@ textures/evil8_fx/e8icon_red
 
 textures/evil8_fx/e8icon_blue
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
@@ -584,6 +602,7 @@ textures/evil8_fx/e8scuffs1
 	surfaceparm trans
 	cull disable
 	qer_trans 0.4
+	qer_nocarve
 	{
 		map textures/evil8_fx/e8scuffs1.tga
 		blendfunc blend
@@ -594,6 +613,8 @@ textures/evil8_fx/e8scuffs1
 
 textures/evil8_fx/e8circle_red
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
@@ -606,6 +627,8 @@ textures/evil8_fx/e8circle_red
 
 textures/evil8_fx/e8circle_blue
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
@@ -618,6 +641,8 @@ textures/evil8_fx/e8circle_blue
 
 textures/evil8_fx/e8circle_red_fade
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/evil8_fx/e8circle_red.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -632,6 +657,8 @@ textures/evil8_fx/e8circle_red_fade
 
 textures/evil8_fx/e8circle_blue_fade
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/evil8_fx/e8circle_blue.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -705,6 +732,8 @@ textures/evil8_trim/e8trim_redfx
 
 textures/evil8_fx/e8evilspacetxt
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm pointlight
@@ -754,6 +783,7 @@ textures/evil8_fx/e8beam
 	surfaceparm trans
 	cull disable
 	qer_trans 0.6
+	qer_nocarve
 	{
 		map textures/evil8_fx/e8beam.tga
 		blendfunc add
@@ -770,6 +800,7 @@ textures/evil8_fx/e8beam_blue
 	surfaceparm trans
 	cull disable
 	qer_trans 0.6
+	qer_nocarve
 	{
 		map textures/evil8_fx/e8beam_blue.tga
 		blendfunc add

@@ -164,12 +164,13 @@ textures/filth/trak_light3_128
 
 textures/filth/trak_trim_trans1
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/filth/trak_trim_trans1.tga
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
-
 	{
 		map textures/filth/trak_trim_trans1.tga
 		alphafunc GE128
@@ -184,12 +185,13 @@ textures/filth/trak_trim_trans1
 
 textures/filth/trak_trim_trans2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/filth/trak_trim_trans2.tga
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
-
 	{
 		map textures/filth/trak_trim_trans2.tga
 		alphafunc GE128
@@ -205,6 +207,8 @@ textures/filth/trak_trim_trans2
 
 textures/filth/trak_rustdecal1
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans

@@ -1,5 +1,7 @@
 textures/base_wall2/ntrl_techfloor_kc
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm pointlight
@@ -22,6 +24,8 @@ textures/base_wall2/ntrl_techfloor_kc
 }
 textures/base_wall2/techfloor_kc
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm pointlight
@@ -44,6 +48,8 @@ textures/base_wall2/techfloor_kc
 }
 textures/base_wall2/techfloor_kc_blue
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm pointlight

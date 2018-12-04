@@ -882,6 +882,8 @@ textures/base_light/ceil1_30_8k
 
 textures/base_light/ceil1_30_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/ceil1_30.tga
 	q3map_lightimage textures/base_light/ceil1_30.blend.tga
 	surfaceparm metalsteps
@@ -1085,6 +1087,8 @@ textures/base_light/ceil1_22a_10k
 
 textures/base_light/ceil1_22a_trans
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_light/ceil1_22a.tga
 	q3map_lightimage textures/base_light/ceil1_22a.blend.tga
 	surfaceparm nomarks

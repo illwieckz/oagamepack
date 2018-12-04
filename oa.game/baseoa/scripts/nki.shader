@@ -25,12 +25,11 @@ textures/nki_shaders/tropicalwater
 {
 	qer_editorimage textures/liquids/pool3d_4b2.tga
 	qer_trans 20
+	qer_nocarve
 	surfaceparm lightfilter
 	surfaceparm nomarks
 	surfaceparm trans
-//	surfaceparm fog	qer_nocarveqer_trans 0.5
-	surfaceparm water	qer_nocarveqer_trans 0.5
-//	surfaceparm alphashadow
+//	surfaceparm fog	surfaceparm water//	surfaceparm alphashadow
 	surfaceparm nolightmap
 	//deformVertexes wave <div> <func> <base> <amplitude> <phase> <freq>
 	deformVertexes wave 256 sin 0 16 0 0.1 
@@ -62,12 +61,13 @@ textures/nki_shaders/tropicalwater
 
 textures/nki_shaders/lavared_1k5
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/nki/nki_lava4.tga  // q3map_lightimage must appear before any qer_editorimage !!
 	qer_editorimage textures/nki/nki_lava4.tga
 	q3map_lightmapBrightness 2.0
-	//q3map_lightmapFilterRadius self other
-	surfaceparm lava	qer_nocarveqer_trans 0.5
-	surfaceparm nolightmap
+//	q3map_lightmapFilterRadius self other
+	surfaceparm lava	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm trans
@@ -91,11 +91,11 @@ textures/nki_shaders/lavared_1k5
 
 textures/nki_shaders/lavabright_1k5
 {
-
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/nki/nki_lava5.tga  // q3map_lightimage must appear before qer_editorimage !!
 	qer_editorimage textures/nki/nki_lava5.tga
-	surfaceparm lava	qer_nocarveqer_trans 0.5
-//	surfaceparm nolightmap
+	surfaceparm lava//	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm trans
@@ -113,6 +113,8 @@ textures/nki_shaders/lavabright_1k5
 
 textures/mapobjects/palmtree1
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage models/mapobjects/palmier/palmier1.tga
 	surfaceparm nonsolid
 	surfaceparm noimpact
@@ -129,6 +131,8 @@ textures/mapobjects/palmtree1
 
 textures/nki_shaders/forest4
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/nki/nki_forest4.tga
 	q3map_lightmapMergable
 	q3map_nonPlanar
@@ -139,7 +143,6 @@ textures/nki_shaders/forest4
 	surfaceparm trans
 	surfaceparm noimpact
 	surfaceparm alphashadow
-
 	cull disable
 	{
 		map textures/nki/nki_forest4.tga
@@ -147,16 +150,18 @@ textures/nki_shaders/forest4
 		alphaFunc GE128
 //		rgbGen identity
 	}
-	// {
-		// map $lightmap
-		// blendFunc GL_DST_COLOR GL_ZERO
-		// rgbGen identity
-	// }
+//	{
+//		map $lightmap
+//		blendFunc GL_DST_COLOR GL_ZERO
+//		rgbGen identity
+//	}
 }
 
 
 textures/mapobjects/leafs1
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/mapobjects/leafs1.tga
 	surfaceparm nonsolid
 	surfaceparm lightfilter
@@ -171,15 +176,17 @@ textures/mapobjects/leafs1
 //		alphaFunc GE128
 //		rgbGen identity
 	}
-	// {
-		// map $lightmap
-		// blendFunc GL_DST_COLOR GL_ZERO
-		// rgbGen identity
-	// }
+//	{
+//		map $lightmap
+//		blendFunc GL_DST_COLOR GL_ZERO
+//		rgbGen identity
+//	}
 }
 
 textures/mapobjects/leafs2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/mapobjects/leafs2.tga
 	surfaceparm nonsolid
 	surfaceparm lightfilter
@@ -194,15 +201,17 @@ textures/mapobjects/leafs2
 //		alphaFunc GE128
 //		rgbGen identity
 	}
-	// {
-		// map $lightmap
-		// blendFunc GL_DST_COLOR GL_ZERO
-		// rgbGen identity
-	// }
+//	{
+//		map $lightmap
+//		blendFunc GL_DST_COLOR GL_ZERO
+//		rgbGen identity
+//	}
 }
 
 textures/mapobjects/leafs3
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/mapobjects/leafs3.tga
 	surfaceparm nonsolid
 	surfaceparm lightfilter
@@ -214,18 +223,20 @@ textures/mapobjects/leafs3
 	{
 		map textures/mapobjects/leafs3.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		//alphaFunc GE128
+//		alphaFunc GE128
 //		rgbGen identity
 	}
-	// {
-		// map $lightmap
-		// blendFunc GL_DST_COLOR GL_ZERO
-		// rgbGen identity
-	// }
+//	{
+//		map $lightmap
+//		blendFunc GL_DST_COLOR GL_ZERO
+//		rgbGen identity
+//	}
 }
 
 textures/mapobjects/leafs4
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/mapobjects/leafs4.tga
 	surfaceparm nonsolid
 	surfaceparm lightfilter
@@ -237,12 +248,12 @@ textures/mapobjects/leafs4
 	{
 		map textures/mapobjects/leafs4.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		//alphaFunc GE128
+//		alphaFunc GE128
 //		rgbGen identity
 	}
-	// {
-		// map $lightmap
-		// blendFunc GL_DST_COLOR GL_ZERO
-		// rgbGen identity
-	// }
+//	{
+//		map $lightmap
+//		blendFunc GL_DST_COLOR GL_ZERO
+//		rgbGen identity
+//	}
 }

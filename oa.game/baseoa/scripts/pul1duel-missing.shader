@@ -15,16 +15,6 @@ textures/gothic_trim/column2c_trans
 	}
 }
 
-textures/common/skip
-{
-	qer_nocarve
-	qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm structural
-	surfaceparm trans
-}
-
 textures/base_trim/pewter_nonsolid
 {
 	qer_editorimage textures/base_trim/dirty_pewter.tga

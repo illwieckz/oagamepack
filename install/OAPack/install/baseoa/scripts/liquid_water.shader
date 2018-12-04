@@ -1,9 +1,10 @@
 textures/liquids/islewater
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	fogparms ( 0.345098 0.513726 0.788235 ) 1024
 	{
 		map textures/liquids/pool2.tga
@@ -33,12 +34,12 @@ textures/liquids/islewater
 
 textures/ice/coldwater
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/ice/coldwater.tga
 	surfaceparm nonsolid
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
-	qer_trans 0.5
+	surfaceparm water	cull disable
 	q3map_globaltexture
 	{
 		map textures/ice/coldwater.tga
@@ -59,10 +60,11 @@ textures/ice/coldwater
 
 textures/liquids/vorwater
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	{
 		map textures/liquids/vorwater.tga
 		blendfunc add
@@ -79,11 +81,12 @@ textures/liquids/vorwater
 
 textures/savdm6ish/#teleport
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/liquids/pool3d_3.tga
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	q3map_surfacelight 900
 	q3map_flare flareShader-portal
 	{
@@ -108,11 +111,12 @@ textures/savdm6ish/#teleport
 
 textures/liquids/tele
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/liquids/pool3d_3.tga
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	q3map_surfacelight 900
 	q3map_flare flareShader-portal
 	{
@@ -141,10 +145,11 @@ textures/liquids/tele
 
 textures/liquids/refwater
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	portal
 	{
 		map textures/liquids/vorwater.tga
@@ -169,10 +174,11 @@ textures/liquids/refwater
 //updated for current textures 02-15-07 dmn_clown
 textures/liquids/waveywater
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	{
 		map textures/liquids/pool2.jpg
 		blendfunc filter
@@ -195,10 +201,11 @@ textures/liquids/waveywater
 //updated for current textures 02-15-07 dmn_clown
 textures/liquids/justwater
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	{
 		map textures/liquids/pool3d_4b2.jpg
 		blendfunc blend
@@ -223,10 +230,11 @@ textures/liquids/justwater
 //updated for current textures 02-15-07 dmn_clown
 textures/liquids/rapidwater
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	{
 		map textures/liquids/ripple.jpg
 		blendfunc gl_dst_color gl_src_color
@@ -241,11 +249,12 @@ textures/liquids/rapidwater
 
 textures/liquids/softwater
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool2.tga
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	{
 		map textures/liquids/pool2.tga
 		blendfunc filter
@@ -270,11 +279,12 @@ textures/liquids/softwater
 
 textures/liquids/clear_ripple3
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_3.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	deformVertexes wave 64 sin .25 .25 0 .5	
 		
 	{ 
@@ -307,11 +317,12 @@ textures/liquids/clear_ripple3
 
 textures/liquids/clear_ripple1
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_3.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	deformVertexes wave 64 sin .5 .5 0 .5	
 		
 	{ 
@@ -338,11 +349,12 @@ textures/liquids/clear_ripple1
 
 textures/liquids/clear_ripple2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_3.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	deformVertexes wave 64 sin .25 .25 0 .5	
 		
 	{ 
@@ -375,11 +387,12 @@ textures/liquids/clear_ripple2
 
 textures/liquids/clear_calm1
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_5e.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull none
+	surfaceparm water	cull none
 	
 		
 	{ 
@@ -412,11 +425,12 @@ textures/liquids/clear_calm1
 
 textures/liquids/calm_poollight
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_3.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	q3map_surfacelight 100
 	deformVertexes wave 64 sin .25 .25 0 .5	
 		
@@ -450,11 +464,12 @@ textures/liquids/calm_poollight
 
 textures/liquids/clear_calm2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_5e.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull none
+	surfaceparm water	cull none
 	
 	{ 
 		map textures/liquids/pool3d_6.jpg
@@ -488,11 +503,12 @@ textures/liquids/clear_calm2
 
 textures/liquids/hydrowater
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool2.tga
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_nocarve	qer_trans 0.5
-	cull disable
+	surfaceparm water	cull disable
 	deformVertexes wave 256 sin 0 7 0 0.4
 	fogparms ( 0.215686 0.278431 0.333333 ) 1024
 	{
@@ -526,11 +542,12 @@ textures/liquids/hydrowater
 
 textures/liquids2/clear_calm1v
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_5e.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull none
+	surfaceparm water	cull none
 	fogparms ( 0.215686 0.278431 0.333333 ) 512
 	{ 
 		map textures/liquids/pool3d_5e.jpg
@@ -566,11 +583,12 @@ textures/liquids2/clear_calm1v
 
 textures/liquids2/clear_ripple1_q3dm1v
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_5e.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull none
+	surfaceparm water	cull none
 	fogparms ( 0.215686 0.278431 0.333333 ) 512
 	deformvertexes wave 128 sin .5 .5 .5 .5
 	{ 
@@ -607,11 +625,12 @@ textures/liquids2/clear_ripple1_q3dm1v
 
 textures/liquids2/clear_ripple1_q3dm1light
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/pool3d_5e.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull none
+	surfaceparm water	cull none
 	q3map_surfacelight 100
 	fogparms ( 0.215686 0.278431 0.333333 ) 1024
 	deformvertexes wave 256 sin .5 .5 .5 .5
@@ -653,12 +672,12 @@ textures/liquids2/clear_ripple1_q3dm1light
 
 textures/liquids/acid
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/liquids/slime7.tga
 	surfaceparm nomarks
-	surfaceparm slime	qer_nocarveqer_trans 0.5
-	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm slime	surfaceparm trans
+	surfaceparm water	cull disable
 	deformVertexes wave 256 sin 0 9 0 0.4 
 	tessSize 128
 	q3map_surfacelight 900
@@ -683,12 +702,12 @@ textures/liquids/acid
 
 textures/liquids/oldacid
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_lightimage textures/liquids/slime7.tga
 	surfaceparm nomarks
-	surfaceparm slime	qer_nocarveqer_trans 0.5
-	surfaceparm trans
-	surfaceparm water	qer_nocarveqer_trans 0.5
-	cull disable
+	surfaceparm slime	surfaceparm trans
+	surfaceparm water	cull disable
 	deformVertexes wave 32 sin 0 3 0 0.2 
 	deformVertexes wave 64 sin 0 7 0 0.6 
 	q3map_surfacelight 333
@@ -719,11 +738,12 @@ textures/liquids/oldacid
 
 textures/liquids/slime1
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/slime8.jpg
 	q3map_lightimage textures/liquids/slime8.jpg
 	surfaceparm noimpact
-	surfaceparm slime	qer_nocarveqer_trans 0.5
-	surfaceparm nolightmap
+	surfaceparm slime	surfaceparm nolightmap
 	surfaceparm trans
 	q3map_surfacelight 150
 	deformVertexes wave 64 sin .25 .25 0 .5	
@@ -742,11 +762,12 @@ textures/liquids/slime1
 
 textures/liquids/slime1_2000
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/slime8.jpg
 	q3map_lightimage textures/liquids/slime8.jpg
 	surfaceparm noimpact
-	surfaceparm slime	qer_nocarveqer_trans 0.5
-	surfaceparm nolightmap
+	surfaceparm slime	surfaceparm nolightmap
 	surfaceparm trans
 	q3map_surfacelight 2000
 	deformVertexes wave 64 sin .25 .25 0 .5	
@@ -765,11 +786,12 @@ textures/liquids/slime1_2000
 
 textures/liquids/proto_poolpass
 {
+	qer_trans 0.50
+	qer_nocarve
 	q3map_globaltexture
 	qer_editorimage textures/liquids/proto_gruel3.jpg
 	q3map_surfacelight 300
-	surfaceparm slime	qer_nocarveqer_trans 0.5
-	surfaceparm trans
+	surfaceparm slime	surfaceparm trans
 	{
 		map textures/liquids/proto_gruel3.jpg
 		tcmod turb .1 .3 .5 .1
@@ -795,11 +817,12 @@ textures/liquids/proto_poolpass
 
 textures/liquids/slime2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/slime10.jpg
 	q3map_lightimage textures/liquids/slime8.jpg
 	surfaceparm noimpact
-	surfaceparm slime	qer_nocarveqer_trans 0.5
-	surfaceparm nolightmap
+	surfaceparm slime	surfaceparm nolightmap
 	surfaceparm trans
 	q3map_surfacelight 150
 	deformVertexes wave 64 sin .25 .25 0 .5	
@@ -825,11 +848,12 @@ textures/liquids/slime2
 
 textures/liquids/slime3
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/liquids/slime9.jpg
 	q3map_lightimage textures/liquids/slime9.jpg
 	surfaceparm noimpact
-	surfaceparm slime	qer_nocarveqer_trans 0.5
-	surfaceparm nolightmap
+	surfaceparm slime	surfaceparm nolightmap
 	surfaceparm trans
 	q3map_surfacelight 150
 	deformVertexes wave 64 sin .25 .25 0 .5	

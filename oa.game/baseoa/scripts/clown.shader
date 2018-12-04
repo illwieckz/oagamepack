@@ -38,6 +38,8 @@ textures/clown/red_banner
 
 textures/clown/bleeding-wall
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/clown/bleeding-wall.tga
 	surfaceparm nomarks
 	surfaceparm trans
@@ -64,12 +66,13 @@ textures/clown/bleeding-wall
 
 textures/clown/portal
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/clown/portal.tga
 	q3map_surfacelight 1000
 	surfaceparm nomarks
 	surfaceparm trans
 	cull none
-	
 	{
 		map $lightmap
 		rgbGen identity
@@ -86,7 +89,6 @@ textures/clown/portal
 		alphaGen lightingSpecular
 		tcMod rotate 2
 		tcMod scroll 0 -1
-		
 	}
 	{
 		map textures/clown/fleshy_t.tga
@@ -96,7 +98,6 @@ textures/clown/portal
 		depthWrite
 		tcMod rotate -2
 		tcMod scroll 0 -1
-		
 	}
 }
 
@@ -283,6 +284,8 @@ textures/clown/glass
 
 textures/clown/portal_1r
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/clown/portal_1r.tga
 	surfaceparm noimpact
 	surfaceparm nomarks
@@ -290,7 +293,6 @@ textures/clown/portal_1r
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	cull disable
-
 	{
 		map $lightmap
 		blendFunc gl_dst_color gl_one_minus_src_alpha
@@ -342,11 +344,12 @@ textures/clown/dark_sky
 
 textures/clown/r_edge
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	cull none
-	
 	{
 		map $lightmap
 		blendFunc GL_DST_COLOR GL_ONE
@@ -361,11 +364,12 @@ textures/clown/r_edge
 
 textures/clown/b_edge
 {
+	qer_trans 0.50
+	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	cull none
-	
 	{
 		map $lightmap
 		blendFunc GL_DST_COLOR GL_ONE
@@ -730,6 +734,8 @@ textures/gothic_block/wetwall
 
 textures/ctf/blue_telep2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/effects/jumpcircblue.tga
 	q3map_lightimage textures/effects/jumpcircblue.tga
 	surfaceparm nonsolid
@@ -760,6 +766,8 @@ textures/ctf/blue_telep2
 
 textures/ctf/red_telep2
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/effects/jumpcircred.tga
 	q3map_lightimage textures/effects/jumpcircred.tga
 	surfaceparm nonsolid
@@ -1737,6 +1745,8 @@ textures/gothic_floor/largerblock3b_ow
 
 textures/base_trim/proto_fence
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/base_trim/proto_fence.tga
 	surfaceparm trans
 	cull none
@@ -1800,6 +1810,8 @@ textures/skin/chapthroatooz
 
 textures/clown/fence
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/clown/fence.tga
 	surfaceparm nonsolid
 	surfaceparm trans
@@ -1820,6 +1832,8 @@ textures/clown/fence
 
 textures/clown/fence_shadow
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/clown/fence_shadow.tga
 	polygonoffset
 	surfaceparm nolightmap

@@ -23,6 +23,8 @@ textures/pulchr_skies/aa-sky-shader-01
 
 textures/pulchr_sfx/aa-jump-casing
 {
+	qer_trans 0.50
+	qer_nocarve
 	qer_editorimage textures/pulchr_sfx/jumppad-casing.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
