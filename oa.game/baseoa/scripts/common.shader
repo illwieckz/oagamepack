@@ -1,4 +1,3 @@
-// 
 // 12-12-06 removed redundant nodrop
 // 12-23-06 fixed the b0rked invisible shader
 // 01-25-07 removed redundant clip + added nodrawnonsolid, clusterportal
