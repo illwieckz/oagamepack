@@ -1,13 +1,12 @@
-/*
-  12-12-06 removed redundant nodrop
-  12-23-06 fixed the b0rked invisible shader
-  01-25-07 removed redundant clip + added nodrawnonsolid, clusterportal
-  01-27-07 moved portal from clown.shader to here
-  01-31-07 added mirror shader doesnt work, gave other shaders transparency in map editor.-kit89 
-  02-14-07 added timportal + mirror1, mirror 2, terrain, terrain 2, metalclip 
-  02-27-07 added botclip, missleclip, remapped certain mirrors to point to invisible.tga
-  22/11/18 added remaining shaders.
-*/
+// 12-12-06 removed redundant nodrop
+// 12-23-06 fixed the b0rked invisible shader
+// 01-25-07 removed redundant clip + added nodrawnonsolid, clusterportal
+// 01-27-07 moved portal from clown.shader to here
+// 01-31-07 added mirror shader doesnt work, gave other shaders transparency in map editor.-kit89 
+// 02-14-07 added timportal + mirror1, mirror 2, terrain, terrain 2, metalclip 
+// 02-27-07 added botclip, missleclip, remapped certain mirrors to point to invisible.tga
+// 22/11/18 added remaining shaders.
+
 textures/common/areaportal
 {
 	qer_trans 0.50
@@ -103,8 +102,8 @@ textures/common/hint
 	surfaceparm noimpact
 }
 
-/* Aids in VIS compiles, according to someone acts like a hint but doesn't create portals
-   beyond local structures.*/
+// Aids in VIS compiles, according to someone acts like a hint but doesn't create portals
+// beyond local structures.
 textures/common/hintlocal
 {
 	surfaceparm nodraw
@@ -318,8 +317,8 @@ textures/common/metalclip
 	surfaceparm metalsteps
 }
 
-/*simplifies world geometry for bots
-  use for smoothing highly detailed walls, floors and ceilings.*/
+// simplifies world geometry for bots
+// use for smoothing highly detailed walls, floors and ceilings.
 textures/common/botclip
 {
 	qer_trans 0.50
@@ -332,8 +331,7 @@ textures/common/botclip
 	surfaceparm noimpact
 	surfaceparm botclip
 }
-/* How does this work: 
-*/
+// How does this work: 
 textures/common/lightgrid
 {
 	qer_trans 0.50
@@ -346,7 +344,7 @@ textures/common/lightgrid
 	surfaceparm trans
 	surfaceparm lightgrid
 }
-/* Hint-like shader that suppresses portals. */
+// Hint-like shader that suppresses portals.
 textures/common/antiportal
 {
 	qer_trans 0.50
@@ -370,11 +368,8 @@ textures/common/mirror
     }
 }
 
-/*
--------------------------------------------------------------
-*/
-/* Q2-like hint: doesn't split the BSP, so should be used in hint brushes
-    in the faces that shouldn't cut the BSP tree.*/
+// Q2-like hint: doesn't split the BSP, so should be used in hint brushes
+// in the faces that shouldn't cut the BSP tree.
 textures/common/skip
 {
 	qer_trans 0.50
@@ -386,7 +381,7 @@ textures/common/skip
 	surfaceparm structural
 	surfaceparm trans
 }
-/* Same as skip, allows Radiant to filter both hint and skip. */
+// Same as skip, allows Radiant to filter both hint and skip.
 textures/common/hintskip
 {
 	qer_trans 0.50
@@ -399,8 +394,8 @@ textures/common/hintskip
 	surfaceparm structural
 	surfaceparm trans
 }
-/* Caulk for water: allows water shaders to be used where the water area extends
-   Think am_mckinleyish pool entrances. */
+// Caulk for water: allows water shaders to be used where the water area extends
+// Think am_mckinleyish pool entrances.
 textures/common/watercaulk
 {
 	qer_trans 0.50
@@ -410,7 +405,7 @@ textures/common/watercaulk
 	surfaceparm trans
 	surfaceparm water
 }
-/* Caulk for lava: same as watercaulk, but for lava pits. */
+// Caulk for lava: same as watercaulk, but for lava pits.
 textures/common/lavacaulk
 {
 	qer_trans 0.50
@@ -420,7 +415,7 @@ textures/common/lavacaulk
 	surfaceparm trans
 	surfaceparm lava
 }
-/* Caulk for slime: same as watercaulk and lavacaulk, but for slime pits. */
+// Caulk for slime: same as watercaulk and lavacaulk, but for slime pits.
 textures/common/lavacaulk
 {
 	qer_trans 0.50
@@ -430,8 +425,8 @@ textures/common/lavacaulk
 	surfaceparm trans
 	surfaceparm slime
 }
-/* Terrain-specific shaders. With these, we complete the pack.
-   Go to simonoc's page for terrain tutorials.*/
+// Terrain-specific shaders. With these, we complete the pack.
+// Go to simonoc's page for terrain tutorials.
 textures/common/alpha_0
 {
 	qer_trans 0.50

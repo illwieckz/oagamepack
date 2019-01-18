@@ -1252,7 +1252,7 @@ textures/cosmo_light/crystalwhite_5k
 
 
 
-/* DETAILS */
+// DETAILS
 textures/cosmo_block/sand02
 {
 	qer_editorimage textures/cosmo_floor/sand02.tga
