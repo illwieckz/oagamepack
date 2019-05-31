@@ -416,7 +416,7 @@ textures/common/lavacaulk
 	surfaceparm lava
 }
 // Caulk for slime: same as watercaulk and lavacaulk, but for slime pits.
-textures/common/lavacaulk
+textures/common/slimecaulk
 {
 	qer_trans 0.50
 	qer_nocarve
